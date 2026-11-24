@@ -15,8 +15,8 @@ RF-013: intervenção durante execução, avaliar impacto, continuar, ajustar, p
 
 ## Autonomia e produção manual
 RF-014: autonomia adaptativa (alternativa C explicitamente escolhida). Orquestrador identifica competências e entregáveis necessários, executa dentro da missão autorizada, solicita intervenção em decisões relevantes, novos custos, riscos ou mudanças de escopo. Não exigir autorização individual de cada entregável nem interpretar autonomia como autorização ilimitada.
-RF-015: usuário pode criar entregável não previsto pelo orquestrador, diretamente no editor (ex. BPMN), solicitar apoio parcial ou delegar produção; vincular ao mesmo workspace e projeto quando existente. Não exigir execução de agente nem projeto formal para criação manual. Registrar origem, autoria, versão e relações. Orquestrador deve reconhecer o artefato, interpretar alterações, avaliar dependências e sugerir continuidade. Aplicar testes e JEV proporcional antes de considerar artefato manual validado internamente (direção proposta para manter coerência; edição e rascunho não bloqueados). Não modificar artefato humano sem autorização.
-RF-016: importar ou vincular artefato existente é capacidade candidata a detalhar, sem presumir sincronização externa automática.
+RF-015: usuário pode criar entregável não previsto pelo orquestrador, diretamente no editor (ex. BPMN), solicitar apoio parcial ou delegar produção; vincular ao mesmo workspace e projeto quando existente. Não exigir execução de agente nem projeto formal para criação manual. Registrar origem, autoria, versão e relações. Orquestrador deve reconhecer o artefato, interpretar alterações, avaliar dependências e sugerir continuidade. Aplicar testes e JEV proporcional antes de considerar artefato manual validado internamente (aprovado pelo idealizador em 24/11/2026; edição e rascunho não bloqueados). Não modificar artefato humano sem autorização.
+RF-016: importar e incorporar trabalhos existentes é capacidade essencial aprovada pelo idealizador. Permitir associar artefatos externos ao workspace e ao projeto quando existente, inclusive BPMN criado manualmente no Bizagi e não previsto pelo orquestrador. Não presumir sincronização externa automática.
 
 ## Cenários de aceite candidatos
 - Consultor B acessa workspace de consultor A e abre o documento aprovado completo, se autorizado; distingue JEV de aceite humano.
@@ -25,5 +25,16 @@ RF-016: importar ou vincular artefato existente é capacidade candidata a detalh
 - Orquestrador detecta nova versão de artefato, preserva aprovação anterior e sinaliza impactos; não inventa justificativa nem altera outros documentos sem autorização.
 - Plano adaptativo muda durante execução sem reiniciar atividades não afetadas.
 - Conversa livre continua possível, e atividades paralelas não são apresentadas como dependência sequencial obrigatória.
+## JEV universal e incorporação de entregáveis externos
+RF-017 (aprovado): JEV avalia entregáveis independentemente de autoria humana, colaborativa, artificial ou externa. Opcional durante elaboração e sob demanda para apoio; obrigatório para validação interna de entregáveis finalizados. Revalidação proporcional após alteração. Distinguir parecer JEV, aprovação humana e aceite do cliente. Preservar pareceres e evidências; permitir contestação fundamentada, segunda avaliação e exceção autorizada sem converter reprovação técnica em conformidade.
+RF-018 (direção funcional): incorporar arquivos mantendo original, origem, autoria e contexto; distinguir importação de cópia, vínculo a fonte externa e atualização de versão. BPMN 2.0 XML (.bpmn) é formato prioritário para intercâmbio com Bizagi; testar importação, edição, exportação e round-trip, incluindo limitações de extensões e layout. Não presumir suporte nativo .bpm ou conversão fiel de qualquer formato. DOCX, PDF, XLSX/CSV, PPTX, HTML, Markdown, transcrições, Drive e GitHub são candidatos a priorização por formato, capacidade de leitura/edição e autorização.
+RF-019 (proposta em discussão): identificar fonte oficial, histórico, versão, autoria, estado de sincronização e conflitos; preservar versão aprovada, não sobrescrever automaticamente, permitir recuperar versões anteriores. Atualização externa deve ser comparada antes de incorporação e reavaliação.
+O orquestrador interpreta o conteúdo incorporado, identifica regras, lacunas, impactos e possíveis revisões de sua estratégia anterior. Não presumir correção ou aprovação do material importado. Arquivo original preservado; editabilidade depende de formato e ferramentas. Escopo de formatos no MVP e mecanismo de sincronização ainda a definir.
+### Aceite candidato
+- BPMN externo criado no Bizagi, mesmo não recomendado no plano inicial, é importado, associado ao trabalho, visualizado e interpretado; eventual perda de elementos é sinalizada.
+- Entregável manual/importado em rascunho permanece editável; ao solicitar validação interna, passa pelo JEV proporcional; parecer fica vinculado à versão.
+- Humano contesta parecer e solicita nova avaliação; histórico original permanece.
+- Nova importação não sobrescreve versão aprovada; conflito sinalizado.
+
 ## Pendências
 Detalhar criação/importação e associação de artefatos, conflitos de edição, permissões, aprovação/aceite e publicação; limites da autonomia, UX e escopo MVP. Nenhuma implementação ou teste realizado.
