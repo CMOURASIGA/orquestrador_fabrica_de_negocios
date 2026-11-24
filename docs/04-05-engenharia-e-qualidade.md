@@ -1,0 +1,8 @@
+# 04 e 05 | Pilares futuros
+Não aprovados em detalhe. Registro das ideias já mencionadas, para evitar perda de contexto.
+
+## 04 Engenharia agêntica
+LLM interpreta e raciocina; prompts estabelecem comportamento; Skills descrevem métodos; agentes têm missão, recursos e limites; memória fornece contexto e estado; MCP padroniza conectividade a ferramentas, dados e sistemas; orquestrador planeja e controla execução. MCP não é o próprio orquestrador. Considerar independência de fornecedor de LLM sempre que possível. Execução individual, sequencial, paralela e iterativa; comunicação híbrida. Estado persistente, dependências, limites de custo/tempo/tentativas, tratamento de falhas, retomada, rastreabilidade, autorização e isolamento são questões técnicas a amadurecer. Não escolher stack, modelos, banco, frameworks ou integrações obrigatórias nesta fase.
+
+## 05 Qualidade
+JEV (Jury of Expert Validators) avalia criticamente entregas, premissas, fundamentação, consistência, aderência e qualidade; não autoriza execução nem comprova persistência. Pode atuar em diferentes etapas, incluindo avaliação de propostas e alternativas, agentes temporários e mudanças de versão. Não confundir JEV com QA: homologação técnica/funcional executa testes, registra evidências, identifica defeitos e exige retestes; independência desejável entre desenvolvedor e homologador. Não prometer zero erros absolutos. Aprovação humana e aceite do cliente permanecem distintos da avaliação por IA. Definir critérios, métricas, evidências, avaliação de regressão e escalonamento no pilar 05. Nenhuma ferramenta de avaliação escolhida.
