@@ -1,5 +1,5 @@
 # 01 | O Orquestrador
-Status: validado conceitualmente em 24/11/2026. Mecanismos técnicos serão discutidos nos demais pilares.
+Baseline oficial v1.0. Status: aprovado pelo idealizador em 24/11/2026. Mecanismos técnicos serão discutidos nos demais pilares.
 
 ## Identidade e responsabilidades
 Inteligência generalista de coordenação, não especialista único de projetos ou desenvolvimento. Compreender negócios, objetivos e restrições; conversar com usuário, selecionar agentes, planejar dependências, distribuir missões, supervisionar execução, consolidar resultados, explicar limitações e replanejar. Responder diretamente quando suficiente. Usuário delega objetivo; orquestrador organiza; agentes produzem; JEV avalia; humano aprova quando necessário.
@@ -40,3 +40,6 @@ LLM interpreta; memória preserva estado e contexto; MCP conecta ferramentas; mo
 - Orquestrador apresenta alternativas justificadas e recalcula após decisão humana.
 - Proposta recusada não inicia projeto; possibilidade de retomada preservada.
 - Relato distingue resultado real, hipótese, pendência e falha.
+
+## Nota de governança da baseline
+A aprovação conceitual é do idealizador. A validação técnica e com usuários permanece pendente. Consultar a arquitetura conceitual, matriz de restrições e hipóteses e revisão crítica (docs/08, 09 e 13) para classificação vigente; exemplos não representam implementação.
