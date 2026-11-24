@@ -1,5 +1,5 @@
 # 04 e 05 | Engenharia agêntica e qualidade
-Baseline v0.3, 24/11/2026. Pilar 04 consolidado conceitualmente; pilar 05 em aberto. Decisões não equivalem a implementação.
+Baseline v0.4, 24/11/2026. Pilares 04 e 05 consolidados conceitualmente; recomendação específica Markdown/Obsidian em confirmação. Decisões não equivalem a implementação.
 
 ## 04 Engenharia agêntica
 LLM interpreta; prompts estabelecem comportamento; Skills descrevem métodos; agentes têm missão, recursos e limites; memória fornece contexto e estado; MCP padroniza conectividade; orquestrador planeja e controla execução. Separar capacidade cognitiva da execução efetiva. LLM Gateway, Memory Manager, Agent Registry, Skills Registry, Agent Factory, motor de execução e JEV são responsabilidades conceituais, não microsserviços obrigatórios.
@@ -40,5 +40,32 @@ Modelo híbrido aprovado: chat responsivo para consultas rápidas e trabalhos ex
 ### Pendências técnicas
 Selecionar SDK/framework, modelos e versões, autenticação, arquitetura de execução e fila, mecanismo de memória, esquemas, testes de concorrência, segurança, Bizagi e executor local. Não iniciar desenvolvimento nesta baseline.
 
-## 05 Qualidade
-JEV (Jury of Expert Validators) avalia criticamente entregas, premissas, fundamentação, consistência, aderência e qualidade; não autoriza execução nem comprova persistência. Pode atuar em diferentes etapas, incluindo avaliação de propostas e alternativas, agentes temporários e mudanças de versão. Não confundir JEV com QA: homologação técnica/funcional executa testes, registra evidências, identifica defeitos e exige retestes; independência desejável entre desenvolvedor e homologador. Não prometer zero erros absolutos. Aprovação humana e aceite do cliente permanecem distintos da avaliação por IA. Definir critérios, métricas, evidências, avaliação de regressão e escalonamento no pilar 05. Nenhuma ferramenta de avaliação escolhida.
+## 05 Qualidade, JEV e homologação
+Status: consolidado conceitualmente em 24/11/2026. JEV obrigatório para entregáveis produzidos pelos agentes; composição e profundidade adaptativas. Conversas simples não exigem júri completo. JEV (Jury of Expert Validators) avalia criticamente, não autoriza execução, não substitui testes objetivos nem aceite humano.
+
+### Três níveis de validação
+1. Objetiva: estrutura, sintaxe, renderização, testes técnicos/funcionais, regras, componentes e formatos.
+2. JEV: avaliação independente do produtor, com critérios específicos da especialidade, evidências e parecer.
+3. Humana: decisões comerciais, confirmação de expectativas, aprovação e aceite conforme aplicabilidade.
+Não prometer ausência absoluta de erros. Não declarar homologação sem evidências. Defeito impeditivo não pode ser compensado por nota média elevada.
+
+### Dimensões e composição dinâmica
+Dimensões aplicáveis: conceitual, técnica, visual, funcional, padronização e integridade. Segurança e confidencialidade também devem ser verificadas conforme risco. Catálogo de competências: negócios, técnico, funcional, visual, documental, comercial, segurança e integridade. Selecionar um ou vários avaliadores segundo complexidade, risco e natureza; evitar mobilização desnecessária. Independência por instância, contexto e responsabilidade; modelos distintos não são obrigatórios, e instâncias separadas não eliminam vieses correlacionados.
+Exemplos: BPMN (negócio, técnica, visual, integridade); proposta (negócio, comercial, documental, visual, integridade); protótipo (negócio, técnica, funcional, visual, segurança, integridade); Status Report (negócio, visual, documental, integridade); encerramento (negócio, documental, integridade). Combinações ilustrativas, não regras rígidas.
+
+### Avaliar o artefato real
+BPMN: validar XML e renderização, raias, legibilidade, conexões, sobreposições, semântica e regras. Exemplo motivador do usuário: fluxo correto mas desconfigurado deve ser reprovado. HTML: navegador, navegação, interatividade, dados e visual. PDF: renderizar todas as páginas, margens, paginação, cortes, tabelas, legibilidade. Protótipo: executar e navegar, testar botões e operações, aderência aos componentes. Código: compilação, testes, segurança aplicável. Discovery: fidelidade à conversa, separar hipótese de fato. Proposta: escopo e condições autorizadas. Status Report: indicadores consistentes. Kick-off: alinhamento ao escopo. Encerramento: entregáveis, evidências e aceite.
+Ferramentas candidatas: navegador automatizado, screenshots, renderizador PDF, validador BPMN, executor de testes, consulta aos componentes e memória autorizada. Se não puder acessar ou executar artefato, marcar validação bloqueada, não aprovar por presunção.
+
+### Ciclo de avaliação e correção
+Orquestrador estabelece missão e critérios -> agente produz -> testes objetivos e JEV -> parecer aprovado/reprovado/bloqueado -> correção e nova avaliação quando autorizadas -> entrega validada internamente -> validação humana quando aplicável.
+Agente produtor não aprova a própria entrega. Avaliador recebe objetivo, requisitos, critérios, artefato e evidências. Registrar achados, severidade, evidências, versão avaliada e direcionamento. Limitar tentativas, tempo e custo; escalonar se não resolver. Correção dentro da missão pode ser automática. Não apresentar reprovado ou bloqueado como homologado. Homologador técnico/funcional deve ser independente do desenvolvedor quando possível; resultados de testes reais, evidências, correções e retestes em HTML/PDF; aceite do cliente separado.
+
+### Critérios versionados
+Manter critérios por especialidade, independentes dos prompts produtores, em padrões versionados no GitHub. Exemplo ilustrativo: quality/bpmn/criteria.md, quality/status-report/criteria.md, quality/commercial-proposal/criteria.md, quality/prototype/criteria.md. Avaliar mudança em versão experimental, testes/regressão, aprovação humana e publicação controlada. Notas, escalas, pesos e limiares ainda a definir; não tratar exemplos simulados como métricas reais.
+
+### Feedback e melhoria contínua
+Usuário confirmou melhoria contínua como princípio permanente. Produzir -> validar -> receber feedback -> aprender -> melhorar. Feedback identifica deficiência não capturada pelo JEV, necessidade contextual, preferência ou oportunidade de melhoria. Registrar conhecimento relevante com escopo, evidência e origem; não transformar preferência de um cliente em padrão global automaticamente. Avaliar causa: orquestração, agente, memória, engenharia, componentes/templates ou qualidade. Corrigir entregável e revalidar; propor mudança permanente quando pertinente, submetida a testes e aprovação humana. Ausência de feedback negativo é sinal possível de satisfação, não prova de qualidade; manter avaliação preventiva. Não alterar automaticamente prompts, Skills ou critérios homologados. Preservar versões e rastreabilidade.
+
+### Pendências de especificação
+Definir rubricas, severidades, condições de bloqueio, limites de correção, critérios automatizáveis, ferramentas, evidências e métricas reais. Validar arquitetura e desempenho antes de implementar. Nenhuma ferramenta ou modelo específico de JEV selecionado.
