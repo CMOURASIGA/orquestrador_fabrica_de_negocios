@@ -1,5 +1,5 @@
 # 00 | Visão e cenários
-Baseline 0.1, 24/11/2026. Fonte: debate de concepção do produto.
+Baseline oficial v1.0, 24/11/2026. Fonte: debate de concepção do produto.
 
 ## Visão
 Uma plataforma independente de inteligência consultiva e engenharia agêntica para identificar, estruturar, viabilizar, executar e validar negócios, projetos e soluções. A engenharia é o meio; a geração de valor é a finalidade. Não confundir com fábrica de software ou pipeline industrial rígido.
@@ -40,3 +40,6 @@ Diagnóstico, recomendações e plano de ação podem constituir a entrega final
 
 ## Fronteiras
 Não pressupor que a fábrica termina em prototipação. Commander é uma ferramenta de controle de projetos quando pertinente, não requisito para o orquestrador. Não presumir liberação de acesso ou integração com Access Management Service. Não definir arquitetura de integração, comercialização ou stack agora. Nome comercial em aberto.
+
+## Nota de governança da baseline
+A aprovação conceitual é do idealizador. A validação técnica e com usuários permanece pendente. Consultar a arquitetura conceitual, matriz de restrições e hipóteses e revisão crítica (docs/08, 09 e 13) para classificação vigente; exemplos não representam implementação.
