@@ -1,5 +1,5 @@
 # Registro de decisões | 24/11/2026
-Baseline v0.4. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
+Baseline oficial v1.0. Aprovada significa aprovada pelo idealizador, não homologada tecnicamente ou validada com usuários. A matriz docs/09-restricoes-e-hipoteses.md prevalece para classificação de tecnologias. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
 
 | ID | Decisão/direção | Estado |
 |---|---|---|
@@ -31,7 +31,7 @@ Baseline v0.4. Aprovado conceitualmente não significa implementado. Registro si
 | D25 | Central de conexões, ferramentas nativas e externas autorizadas | Aprovada |
 | D26 | Proposta comercial exige condições humanas; antecipar perguntas sem inventar valores | Aprovada |
 | D27 | Google Drive documental com pasta raiz e organização automática; Supabase operacional e GitHub técnico | Aprovada |
-| D28 | Markdown como formato da memória; Supabase central e Obsidian opcional | Recomendação em confirmação |
+| D28 | Markdown como formato da memória; Supabase central e Obsidian opcional | Hipótese técnica não bloqueante |
 | D29 | Execução híbrida com filas, prioridades e limites de concorrência | Aprovada |
 | D30 | Benchmark interno por entregável aprovado e referência Epoch AI | Direção consolidada |
 
@@ -39,6 +39,12 @@ Baseline v0.4. Aprovado conceitualmente não significa implementado. Registro si
 | D32 | Júri dinâmico por competência, complexidade e criticidade | Aprovada |
 | D33 | Avaliar artefato real, incluindo visual, funcionamento e padrões; defeito impeditivo reprova | Direção consolidada |
 | D34 | Feedback humano e melhoria contínua com evolução controlada | Aprovada |
+
+| D35 | Uma pessoa pode exercer múltiplas funções; personas não obrigam contas/perfis separados | Aprovada |
+| D36 | Revisão crítica aceita e Discovery v1.0 oficializado | Aprovada |
+| D37 | Separar núcleo de capacidades transversais; distinguir requisitos e hipóteses técnicas | Direção consolidada |
+| D38 | PoC vertical e MVP A/B/C | Proposta de priorização, pendente de fechamento |
+| D39 | Métricas, personas e testes candidatos; validação com usuários e técnica | Pendentes de evidência |
 
 ## Cronologia resumida
 1. Resgate de KAIROS e especialistas existentes; inclusão de MCP e JEV na mesa.
@@ -56,5 +62,7 @@ Baseline v0.4. Aprovado conceitualmente não significa implementado. Registro si
 
 11. Pilar 05: usuário defendeu JEV obrigatório, incluindo avaliação visual de BPMN, aprovou composição dinâmica e confirmou melhoria contínua por feedback. Critérios e mecanismos técnicos ainda a especificar.
 
+12. Parecer externo recebido e analisado; idealizador autorizou ajustes e oficialização, confirmou acumulação de funções. Revisão de Discovery registrada nos documentos 06 a 14. Próxima etapa: especificação funcional.
+
 ## Próximos passos
-Cinco pilares consolidados conceitualmente, com recomendação Markdown/Obsidian em confirmação. Prosseguir para especificação de produto, requisitos, avaliação técnica e planejamento após direcionamento humano. Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
+Cinco pilares aprovados pelo idealizador; D28 não bloqueia especificação. Prosseguir para especificação de produto, requisitos, avaliação técnica e planejamento após direcionamento humano. Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
