@@ -1,6 +1,6 @@
 # Fábrica de Negócios | Orquestrador inteligente
 
-**Baseline conceitual v0.3 · 24/11/2026 · Discovery do produto**
+**Baseline conceitual v0.4 · 24/11/2026 · Discovery do produto**
 
 Nome comercial ainda não definido. Fábrica de Negócios é a categoria e o nome de trabalho.
 
@@ -22,7 +22,7 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 | 02 Agentes | Validado conceitualmente |
 | 03 Memória | Validado conceitualmente |
 | 04 Engenharia agêntica | Validado conceitualmente; formato da memória em confirmação |
-| 05 Qualidade | Próximo debate |
+| 05 Qualidade | Validado conceitualmente |
 
 Esta baseline documenta o debate de 24/11/2026, não representa funcionalidades implementadas. Exemplos são ilustrativos. Não iniciar desenvolvimento, escolher stack, definir integrações obrigatórias ou alterar agentes existentes com base somente neste registro.
 
