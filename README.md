@@ -1,6 +1,6 @@
 # Fábrica de Negócios | Orquestrador inteligente
 
-**Baseline conceitual v0.4 · 24/11/2026 · Discovery do produto**
+**Baseline oficial de Discovery v1.0 · 24/11/2026 · Discovery do produto**
 
 Nome comercial ainda não definido. Fábrica de Negócios é a categoria e o nome de trabalho.
 
@@ -15,16 +15,27 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 - [Pilares 04 e 05 - engenharia e qualidade](docs/04-05-engenharia-e-qualidade.md)
 - [Registro de decisões e pendências](docs/decisoes.md)
 
+## Revisão crítica e especificação
+- [Problema, personas e objetivos](docs/06-problema-personas-objetivos.md)
+- [Indicadores de sucesso](docs/07-indicadores-de-sucesso.md)
+- [Arquitetura conceitual](docs/08-arquitetura-conceitual.md)
+- [Restrições e hipóteses](docs/09-restricoes-e-hipoteses.md)
+- [Riscos e não-objetivos](docs/10-riscos-e-nao-objetivos.md)
+- [Estratégia PoC e MVP](docs/11-estrategia-poc-mvp.md)
+- [Glossário](docs/12-glossario.md)
+- [Revisão crítica do Discovery](docs/13-revisao-discovery.md)
+- [Casos de teste de negócio](docs/14-casos-de-teste-conceituais.md)
+
 ## Estado do trabalho
 | Pilar | Estado |
 |---|---|
-| 01 Orquestrador | Validado conceitualmente |
-| 02 Agentes | Validado conceitualmente |
-| 03 Memória | Validado conceitualmente |
-| 04 Engenharia agêntica | Validado conceitualmente; formato da memória em confirmação |
-| 05 Qualidade | Validado conceitualmente |
+| 01 Orquestrador | Aprovado pelo idealizador |
+| 02 Agentes | Aprovado pelo idealizador |
+| 03 Memória | Aprovado pelo idealizador |
+| 04 Engenharia agêntica | Aprovado pelo idealizador; D28 não bloqueante |
+| 05 Qualidade | Aprovado pelo idealizador |
 
-Esta baseline documenta o debate de 24/11/2026, não representa funcionalidades implementadas. Exemplos são ilustrativos. Não iniciar desenvolvimento, escolher stack, definir integrações obrigatórias ou alterar agentes existentes com base somente neste registro.
+Esta versão oficial foi autorizada pelo idealizador após revisão externa da documentação. Não equivale a validação com usuários, PoC técnica, homologação ou funcionalidades implementadas. Exemplos são ilustrativos. A matriz de restrições e hipóteses distingue requisitos, serviços definidos, preferências e candidatos técnicos; não há stack definitiva. Uma mesma pessoa pode exercer várias funções. Próxima etapa: especificação funcional; validar hipóteses de problema/personas, priorizar MVP e realizar validações técnica e operacional. Não iniciar desenvolvimento com base somente neste registro.
 
 ## Limites
 O orquestrador é independente do Commander. Commander pode ser utilizado para controle de um projeto, sem assumir que todo trabalho será encaminhado a ele ou que a Fábrica termine na prototipação. Access Management Service e integração entre produtos não são escopo desta discussão. O produto pode atuar em desenvolvimento, implantação de sistemas de mercado, consultoria, dados, processos e outras demandas, sem esteira fixa.
