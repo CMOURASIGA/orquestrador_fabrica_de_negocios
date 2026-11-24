@@ -1,5 +1,5 @@
 # 02 | Os Agentes
-Status: validado conceitualmente em 24/11/2026, comunicação híbrida aprovada explicitamente.
+Baseline oficial v1.0. Status: aprovado pelo idealizador em 24/11/2026, comunicação híbrida aprovada explicitamente.
 
 ## Catálogo e preservação
 Agentes representam competências, não apenas nomes ou prompts de personagem. Preservar especialistas existentes, evitando alteração frequente que degrade sua entrega. KAIROS representa PM AI Partner; BPMN Master Architect, SIA e Status Report Executive Architect são referências existentes. Não afirmar que já estão integrados ao novo produto.
@@ -38,3 +38,6 @@ Orquestrador pode selecionar, delegar, contextualizar, combinar, solicitar revis
 - Revisões não ultrapassam escopo e limites autorizados.
 - Versão experimental não afeta produção; regressão avaliada antes de publicar.
 - Resultados sem fundamentação ou competência suficiente são escalados.
+
+## Nota de governança da baseline
+A aprovação conceitual é do idealizador. A validação técnica e com usuários permanece pendente. Consultar a arquitetura conceitual, matriz de restrições e hipóteses e revisão crítica (docs/08, 09 e 13) para classificação vigente; exemplos não representam implementação.
