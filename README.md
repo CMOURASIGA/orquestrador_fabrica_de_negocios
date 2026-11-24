@@ -26,6 +26,9 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 - [Revisão crítica do Discovery](docs/13-revisao-discovery.md)
 - [Casos de teste de negócio](docs/14-casos-de-teste-conceituais.md)
 
+## Etapa 02 – Especificação funcional em elaboração
+- [Workspace colaborativo, entregáveis e autonomia](docs/15-especificacao-funcional-workspace.md)
+
 ## Estado do trabalho
 | Pilar | Estado |
 |---|---|
