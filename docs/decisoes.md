@@ -1,5 +1,5 @@
 # Registro de decisões | 24/11/2026
-Baseline v0.1. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
+Baseline v0.2. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
 
 | ID | Decisão/direção | Estado |
 |---|---|---|
@@ -17,8 +17,11 @@ Baseline v0.1. Aprovado conceitualmente não significa implementado. Registro si
 | D12 | MCP como conectividade, separado da decisão/orquestração | Entendimento alinhado |
 | D13 | JEV como avaliação consultiva, não substituto de homologação ou aceite | Direção consolidada |
 | D14 | Não antecipar integração Commander/Access Management, infraestrutura ou comercialização | Aprovada |
-| D15 | Memória híbrida e reutilização organizacional com curadoria | Em debate |
+| D15 | Memória híbrida e reutilização organizacional com curadoria | Aprovada |
 | D16 | Engenharia agêntica e qualidade detalhadas | Pendentes |
+| D17 | Memória seletiva: preservar funcionamento, decisões e justificativas relevantes, inclusive alternativas descartadas | Aprovada |
+| D18 | Isolamento por cliente, oportunidade e projeto; mesmo sistema pode ter rumos distintos | Aprovada |
+| D19 | Curadoria híbrida, validação proporcional, versionamento e revisão do conhecimento | Aprovada |
 
 ## Cronologia resumida
 1. Resgate de KAIROS e especialistas existentes; inclusão de MCP e JEV na mesa.
@@ -30,5 +33,7 @@ Baseline v0.1. Aprovado conceitualmente não significa implementado. Registro si
 7. Pilar 02: especialistas temporários excepcionais, preservação de agentes e colaboração híbrida.
 8. Pilar 03: introdução de memória e questão de compartilhamento ainda aberta; interrupção para documentar no GitHub.
 
+9. Pilar 03: usuário aprovou aprendizado organizacional seletivo, isolamento contextual, preservação de motivos de descarte, curadoria híbrida e demais diretrizes apresentadas.
+
 ## Próximos passos
-Retomar pilar 03 exatamente na questão da memória organizacional versus isolamento por cliente. Depois discutir pilar 04 e pilar 05. Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
+Pilar 03 consolidado. Discutir pilar 04 (Engenharia Agêntica) e depois pilar 05 (Qualidade). Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
