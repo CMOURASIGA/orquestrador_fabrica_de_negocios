@@ -1,5 +1,5 @@
 # 04 e 05 | Engenharia agêntica e qualidade
-Baseline v0.4, 24/11/2026. Pilares 04 e 05 consolidados conceitualmente; recomendação específica Markdown/Obsidian em confirmação. Decisões não equivalem a implementação.
+Baseline oficial v1.0, 24/11/2026. Pilares 04 e 05 aprovados pelo idealizador; validações operacional e técnica pendentes. D28 é hipótese técnica não bloqueante. Decisões não equivalem a implementação.
 
 ## 04 Engenharia agêntica
 LLM interpreta; prompts estabelecem comportamento; Skills descrevem métodos; agentes têm missão, recursos e limites; memória fornece contexto e estado; MCP padroniza conectividade; orquestrador planeja e controla execução. Separar capacidade cognitiva da execução efetiva. LLM Gateway, Memory Manager, Agent Registry, Skills Registry, Agent Factory, motor de execução e JEV são responsabilidades conceituais, não microsserviços obrigatórios.
@@ -32,7 +32,7 @@ Combinar ferramentas nativas (documentos, diagramas, relatórios), MCP/APIs/CLI 
 Executor local instalado e autenticado, com pasta raiz configurável inicialmente C:\Projetos. Verificar pré-requisitos e estado do Git; criar pasta exclusiva, não sobrescrever trabalho existente; obter padrões, produzir código, compilar/testar, iniciar aplicação local e abrir para validação. Ajustes por chat, testes, commits autorizados e sincronização sem conflito; alternativa local-first ou remoto-first conforme missão. Publicação Vercel apenas quando autorizada. Modos local/remoto/híbrido. Máquina precisa estar disponível; se indisponível, pausar ou redirecionar mediante autorização. Restringir diretórios, comandos e credenciais; impedir ações destrutivas ou privilegiadas não autorizadas. Executor e compatibilidade ainda não implementados/testados.
 
 ### Memória e armazenamento
-Google Drive como fonte documental, com pasta raiz previamente configurada e criação adaptativa de clientes, oportunidades e projetos, evitando duplicidade e registrando IDs. Supabase para persistência de memória, estados, decisões, filas, índices e relações; GitHub para código, prompts, Skills, padrões e templates. Proposta recomendada: conhecimento em Markdown armazenado centralmente no Supabase, com metadados, versão, origem, escopo, autorização e recuperação seletiva; pgvector é candidato para busca semântica com isolamento verificado. Obsidian opcional para visualizar/exportar vault Markdown; não tornar runtime dependente do aplicativo, nem criar múltiplas fontes oficiais. Interface de conhecimento inspirada em Obsidian e sincronização bidirecional são possibilidades posteriores, não requisitos aprovados. Escolha final do mecanismo Markdown/Obsidian ainda sujeita à confirmação do usuário. Não publicar memória confidencial em repositório público.
+Google Drive como fonte documental, com pasta raiz previamente configurada e criação adaptativa de clientes, oportunidades e projetos, evitando duplicidade e registrando IDs. Supabase para persistência de memória, estados, decisões, filas, índices e relações; GitHub para código, prompts, Skills, padrões e templates. Proposta recomendada: conhecimento em Markdown armazenado centralmente no Supabase, com metadados, versão, origem, escopo, autorização e recuperação seletiva; pgvector é candidato para busca semântica com isolamento verificado. Obsidian opcional para visualizar/exportar vault Markdown; não tornar runtime dependente do aplicativo, nem criar múltiplas fontes oficiais. Interface de conhecimento inspirada em Obsidian e sincronização bidirecional são possibilidades posteriores, não requisitos aprovados. Escolha final do mecanismo Markdown/Obsidian é hipótese técnica não bloqueante, a avaliar na arquitetura. Não publicar memória confidencial em repositório público.
 Google Drive: criar apenas pastas necessárias sob raiz autorizada, por exemplo Clientes/Cliente A/Projeto A/Discovery, Proposta, Processos, Kick-off, Entregáveis, Homologação, Encerramento. Não criar pastas vazias por fluxo fixo.
 
 ### Execução híbrida e performance
@@ -41,7 +41,7 @@ Modelo híbrido aprovado: chat responsivo para consultas rápidas e trabalhos ex
 Selecionar SDK/framework, modelos e versões, autenticação, arquitetura de execução e fila, mecanismo de memória, esquemas, testes de concorrência, segurança, Bizagi e executor local. Não iniciar desenvolvimento nesta baseline.
 
 ## 05 Qualidade, JEV e homologação
-Status: consolidado conceitualmente em 24/11/2026. JEV obrigatório para entregáveis produzidos pelos agentes; composição e profundidade adaptativas. Conversas simples não exigem júri completo. JEV (Jury of Expert Validators) avalia criticamente, não autoriza execução, não substitui testes objetivos nem aceite humano.
+Status: aprovado pelo idealizador em 24/11/2026; validações técnica e com usuários pendentes. JEV obrigatório para entregáveis produzidos pelos agentes; composição e profundidade adaptativas. Conversas simples não exigem júri completo. JEV (Jury of Expert Validators) avalia criticamente, não autoriza execução, não substitui testes objetivos nem aceite humano.
 
 ### Três níveis de validação
 1. Objetiva: estrutura, sintaxe, renderização, testes técnicos/funcionais, regras, componentes e formatos.
@@ -69,3 +69,6 @@ Usuário confirmou melhoria contínua como princípio permanente. Produzir -> va
 
 ### Pendências de especificação
 Definir rubricas, severidades, condições de bloqueio, limites de correção, critérios automatizáveis, ferramentas, evidências e métricas reais. Validar arquitetura e desempenho antes de implementar. Nenhuma ferramenta ou modelo específico de JEV selecionado.
+
+## Nota de governança da baseline
+A aprovação conceitual é do idealizador. A validação técnica e com usuários permanece pendente. Consultar a arquitetura conceitual, matriz de restrições e hipóteses e revisão crítica (docs/08, 09 e 13) para classificação vigente; exemplos não representam implementação.
