@@ -1,5 +1,5 @@
 # 03 | A Memória
-Status: validado conceitualmente em 24/11/2026. Modelo híbrido de curadoria aprovado explicitamente.
+Baseline oficial v1.0. Status: aprovado pelo idealizador em 24/11/2026. Modelo híbrido de curadoria aprovado explicitamente.
 
 ## Motivação
 Retomar oportunidades e atividades dias ou meses depois sem depender apenas do histórico do chat. Preservar contexto, decisões, aprovações, documentos, entregáveis, estado das execuções e pendências. Exemplo: retomar manutenção predial após um mês, saber o que foi produzido e próximos passos. Vários clientes e trabalhos em estados distintos.
@@ -50,3 +50,6 @@ Versionar regras, origem, data, evidência, status e autoridade de aprovação. 
  
 ## Pendências técnicas
 Definir armazenamento, recuperação, controle de estado, isolamento verificável, políticas de retenção/exclusão, autorização, curadoria e testes de segurança no detalhamento futuro. Nenhuma escolha de banco, RAG, fornecedor ou infraestrutura foi aprovada neste pilar.
+
+## Nota de governança da baseline
+A aprovação conceitual é do idealizador. A validação técnica e com usuários permanece pendente. Consultar a arquitetura conceitual, matriz de restrições e hipóteses e revisão crítica (docs/08, 09 e 13) para classificação vigente; exemplos não representam implementação.
