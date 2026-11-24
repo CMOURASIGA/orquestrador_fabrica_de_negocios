@@ -1,5 +1,5 @@
 # Registro de decisões | 24/11/2026
-Baseline v0.3. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
+Baseline v0.4. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
 
 | ID | Decisão/direção | Estado |
 |---|---|---|
@@ -18,7 +18,7 @@ Baseline v0.3. Aprovado conceitualmente não significa implementado. Registro si
 | D13 | JEV como avaliação consultiva, não substituto de homologação ou aceite | Direção consolidada |
 | D14 | Não antecipar integração Commander/Access Management, infraestrutura ou comercialização | Aprovada |
 | D15 | Memória híbrida e reutilização organizacional com curadoria | Aprovada |
-| D16 | Engenharia agêntica consolidada; qualidade detalhada em debate | Parcial |
+| D16 | Engenharia agêntica e qualidade consolidadas conceitualmente | Consolidada |
 | D17 | Memória seletiva: preservar funcionamento, decisões e justificativas relevantes, inclusive alternativas descartadas | Aprovada |
 | D18 | Isolamento por cliente, oportunidade e projeto; mesmo sistema pode ter rumos distintos | Aprovada |
 | D19 | Curadoria híbrida, validação proporcional, versionamento e revisão do conhecimento | Aprovada |
@@ -35,6 +35,11 @@ Baseline v0.3. Aprovado conceitualmente não significa implementado. Registro si
 | D29 | Execução híbrida com filas, prioridades e limites de concorrência | Aprovada |
 | D30 | Benchmark interno por entregável aprovado e referência Epoch AI | Direção consolidada |
 
+| D31 | JEV obrigatório para entregáveis, profundidade adaptativa | Aprovada |
+| D32 | Júri dinâmico por competência, complexidade e criticidade | Aprovada |
+| D33 | Avaliar artefato real, incluindo visual, funcionamento e padrões; defeito impeditivo reprova | Direção consolidada |
+| D34 | Feedback humano e melhoria contínua com evolução controlada | Aprovada |
+
 ## Cronologia resumida
 1. Resgate de KAIROS e especialistas existentes; inclusão de MCP e JEV na mesa.
 2. Exemplo de eventos do discovery à proposta, kick-off, protótipo, execução, QA, documentação e encerramento.
@@ -49,5 +54,7 @@ Baseline v0.3. Aprovado conceitualmente não significa implementado. Registro si
 
 10. Pilar 04: usuário validou editor BPMN de referência, padrões documentais, OpenAI inicial/Multi-LLM, central de conexões, execução híbrida, protótipos locais/GitHub e separação Drive/Supabase/GitHub. Markdown e Obsidian discutidos; proposta de persistência central em confirmação.
 
+11. Pilar 05: usuário defendeu JEV obrigatório, incluindo avaliação visual de BPMN, aprovou composição dinâmica e confirmou melhoria contínua por feedback. Critérios e mecanismos técnicos ainda a especificar.
+
 ## Próximos passos
-Pilares 01 a 04 consolidados conceitualmente, com recomendação Markdown/Obsidian em confirmação. Discutir pilar 05 (Qualidade). Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
+Cinco pilares consolidados conceitualmente, com recomendação Markdown/Obsidian em confirmação. Prosseguir para especificação de produto, requisitos, avaliação técnica e planejamento após direcionamento humano. Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
