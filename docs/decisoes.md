@@ -1,5 +1,5 @@
 # Registro de decisões | 24/11/2026
-Baseline v0.2. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
+Baseline v0.3. Aprovado conceitualmente não significa implementado. Registro sintetiza debate; detalhes técnicos e propostas específicas permanecem revisáveis.
 
 | ID | Decisão/direção | Estado |
 |---|---|---|
@@ -18,10 +18,22 @@ Baseline v0.2. Aprovado conceitualmente não significa implementado. Registro si
 | D13 | JEV como avaliação consultiva, não substituto de homologação ou aceite | Direção consolidada |
 | D14 | Não antecipar integração Commander/Access Management, infraestrutura ou comercialização | Aprovada |
 | D15 | Memória híbrida e reutilização organizacional com curadoria | Aprovada |
-| D16 | Engenharia agêntica e qualidade detalhadas | Pendentes |
+| D16 | Engenharia agêntica consolidada; qualidade detalhada em debate | Parcial |
 | D17 | Memória seletiva: preservar funcionamento, decisões e justificativas relevantes, inclusive alternativas descartadas | Aprovada |
 | D18 | Isolamento por cliente, oportunidade e projeto; mesmo sistema pode ter rumos distintos | Aprovada |
 | D19 | Curadoria híbrida, validação proporcional, versionamento e revisão do conhecimento | Aprovada |
+
+| D20 | Consult Services primeiro; expansão 7C por configuração posterior | Aprovada |
+| D21 | OpenAI inicial, arquitetura Multi-LLM, seleção por missão e avaliação | Aprovada |
+| D22 | Biblioteca GitHub de componentes e padrões documentais; HTML interativo e PDF imprimível | Aprovada |
+| D23 | BPMN editável manualmente e por chat; bpmn-js referência validada, exportação Bizagi a testar | Aprovada |
+| D24 | Protótipos GitHub e local; executor controlado, testes e ajustes conversacionais | Aprovada |
+| D25 | Central de conexões, ferramentas nativas e externas autorizadas | Aprovada |
+| D26 | Proposta comercial exige condições humanas; antecipar perguntas sem inventar valores | Aprovada |
+| D27 | Google Drive documental com pasta raiz e organização automática; Supabase operacional e GitHub técnico | Aprovada |
+| D28 | Markdown como formato da memória; Supabase central e Obsidian opcional | Recomendação em confirmação |
+| D29 | Execução híbrida com filas, prioridades e limites de concorrência | Aprovada |
+| D30 | Benchmark interno por entregável aprovado e referência Epoch AI | Direção consolidada |
 
 ## Cronologia resumida
 1. Resgate de KAIROS e especialistas existentes; inclusão de MCP e JEV na mesa.
@@ -35,5 +47,7 @@ Baseline v0.2. Aprovado conceitualmente não significa implementado. Registro si
 
 9. Pilar 03: usuário aprovou aprendizado organizacional seletivo, isolamento contextual, preservação de motivos de descarte, curadoria híbrida e demais diretrizes apresentadas.
 
+10. Pilar 04: usuário validou editor BPMN de referência, padrões documentais, OpenAI inicial/Multi-LLM, central de conexões, execução híbrida, protótipos locais/GitHub e separação Drive/Supabase/GitHub. Markdown e Obsidian discutidos; proposta de persistência central em confirmação.
+
 ## Próximos passos
-Pilar 03 consolidado. Discutir pilar 04 (Engenharia Agêntica) e depois pilar 05 (Qualidade). Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
+Pilares 01 a 04 consolidados conceitualmente, com recomendação Markdown/Obsidian em confirmação. Discutir pilar 05 (Qualidade). Atualizar os respectivos documentos e este registro a cada decisão. Não converter propostas em decisões aprovadas sem validação do usuário. Após os cinco pilares, avaliar requisitos e arquitetura de implementação, ainda sem compromisso de stack ou cronograma.
