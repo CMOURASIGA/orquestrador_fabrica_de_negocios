@@ -1,11 +1,11 @@
-# Matriz de permissões | candidata v0.3
+# Matriz de permissões | candidata v0.4
 RF012,026,035,041,057,063–066; D-F01/02/03, 25/11/2026. A nova direção do idealizador substitui o entendimento anterior de dois perfis como classificação completa. ADMIN possui autoridade master; perfis humanos correspondentes aos agentes especialistas padrão indicam relevância contextual da aprovação, sem restringir aprovações de outras especialidades nem constituir licenças de acionamento de agentes. Orquestrador e JEV não têm perfil humano próprio. Catálogo inicial de referência: KAIROS, SIA, BPMN Master Architect, Status Report Executive Architect; lista definitiva e acúmulo de perfis a detalhar.
 | Ação | ADMIN | Humano operacional | Convidado futuro | Orquestrador/agente |
 |---|---|---|---|---|
 | Configurar organização, usuários e limites | Sim no âmbito | Não | Não | Não |
 | Consultar workspace | Âmbito autorizado | Contexto autorizado | Não | Contexto da missão |
 | Solicitar produção/editar entregável | Autorizado | Autorizado, sem exigir perfil da especialidade | Não | Missão autorizada |
-| Aprovar entregável internamente | Autoridade master em todas | Sim, no contexto autorizado; perfil correspondente identifica aprovação especializada, demais perfis aprovação complementar válida | Não | Não |
+| Aprovar entregável, atividade ou outro objeto sujeito a aprovação interna | Autoridade master em todas | Sim, no contexto autorizado; perfil correspondente identifica aprovação especializada, demais perfis aprovação complementar válida | Não | Não |
 | Registrar comentários e sugestões | Autorizado | Autorizado; não equivalem a aprovação especializada | Somente concessão | Análise interna autorizada |
 | Registrar decisão | Com autoria/autoridade | Com autoria/autoridade | Não | Operacional ou registro de decisão humana |
 | Registrar aceite de negócio/cliente | Conforme autoridade e evidência | Conforme autoridade e evidência | Aceite da versão se concedido | Não substituir humano |
@@ -17,6 +17,7 @@ RF012,026,035,041,057,063–066; D-F01/02/03, 25/11/2026. A nova direção do id
 | Revogar execução | Dentro de autoridade | Própria missão ou delegação | Não | Pausa por política/limite |
 
 ## Autoridade de validação
+Regra transversal confirmada pelo idealizador: aplica-se a qualquer objeto, atividade ou entregável sujeito a aprovação humana interna, e não apenas a BPMN. A especialidade relevante depende do objeto e do contexto, inclusive para agentes futuros; inexistência de perfil correspondente não invalida aprovação de profissional autorizado. Preservar requisitos específicos de autoridade comercial, segurança, segregação ou aceite externo quando aplicáveis. Não exigir aprovações adicionais apenas por diferença de especialidade. Registrar referência inequívoca ao objeto e à versão/revisão quando aplicável.
 Orquestrador pode mobilizar BPMN Master Architect mesmo quando solicitante não possui perfil BPMN, desde que missão, contexto, ferramentas e orçamento autorizados. Perfil do solicitante não limita seleção cognitiva. Aprovação humana por outro perfil é válida e permite continuidade normal do processo, observadas as condições obrigatórias da missão. Perfil correspondente indica maior relevância especializada no contexto; ADMIN permanece master. Preservar identidade, perfil/autoridade vigente no ato, versão, data, resultado e fundamento quando pertinente. Permitir múltiplas aprovações por profissionais e especialidades distintas, sem exigir segunda aprovação por padrão. Não estabelecer pesos numéricos arbitrários nem confundir quantidade de aprovações com garantia de qualidade. A aprovação master do ADMIN é autoridade humana transversal, não substitui parecer JEV, testes obrigatórios, aceite de cliente ou obrigações legais. Não inferir conhecimento real ou qualidade comprovada exclusivamente do perfil. Comentários não equivalem automaticamente a aprovação. Quando validação especializada adicional for exigida por regra explícita da missão, encaminhar pendência ao perfil correspondente ou ADMIN; não criar bloqueio automático por diferença de perfil. Divergências relevantes entre avaliações devem ser explicitadas e tratadas conforme governança, sem apagar manifestações anteriores. Autoaprovação humana, critérios de divergência e eventual segregação de funções ainda a confirmar.
 
 ## Regras transversais
