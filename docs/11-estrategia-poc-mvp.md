@@ -13,3 +13,6 @@ Compartilhar chat, catálogo, memória, padrões, gestão de entregáveis, teste
 Fábrica completa de software, executor local, publicação automatizada de aplicações, 7C, agentes temporários avançados, múltiplos provedores em produção e sincronização Obsidian. Não excluir da visão futura.
 ## Gates
 PoC comprova viabilidade; MVP demonstra pelo menos caminhos distintos, artefatos utilizáveis, isolamento, controle humano e JEV. Validar escopo e critérios com idealizador e usuários antes de fechar backlog. Comparar custo, latência e retrabalho com baseline. Nenhum teste executado nesta etapa.
+
+## Atualização de estratégia – 25/11/2026
+Este documento preserva a estratégia original da baseline de Discovery. A decisão posterior D-F04 (docs/26 e 18 v0.2) redefine a sequência: PoC rápida mockada para compreensão da experiência; MVP mockado operacional e evolutivo; validação técnica/econômica real separada antes da operacionalização. Os gates técnicos originalmente descritos permanecem válidos para essa validação real, não para a PoC visual. Cenários A/B/C preservados. A versão atual do recorte é doc/18. Nenhum teste realizado.
