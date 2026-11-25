@@ -30,7 +30,7 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 - [Workspace colaborativo, entregáveis e autonomia](docs/15-especificacao-funcional-workspace.md)
 - [Auditoria da especificação funcional e roteiro para revisão independente (25/11/2026)](docs/16-auditoria-especificacao-funcional.md)
 
-**Situação da etapa 02:** auditoria interna e segunda revisão externa registradas; consolidação candidata v0.1 publicada. 76 RF preservados, sem expansão de escopo. Priorização, permissões, estados e critérios aguardam decisões do idealizador e validação com usuários. Discovery v1.0 permanece preservado; doc/15 é histórico da discussão.
+**Situação da etapa 02:** auditoria interna e segunda revisão externa registradas; consolidação documental v0.2 publicada. 76 RF preservados, sem expansão de escopo. D-F01–07 com direcionamentos definidos; critérios detalhados, entrevistas e validações técnicas permanecem a realizar. Próximo marco: entrevista do idealizador como usuário, incorporação de evidências e aprovação da baseline funcional v1.0. PoC rápida mockada e MVP mockado operacional; validação técnica/econômica real separada (doc/18). Discovery v1.0 permanece preservado; doc/15 é histórico da discussão.
 
 - [17 matriz requisitos funcionais](docs/17-matriz-requisitos-funcionais.md)
 - [18 delimitacao poc mvp](docs/18-delimitacao-poc-mvp.md)
@@ -52,7 +52,7 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 | 04 Engenharia agêntica | Aprovado pelo idealizador; D28 não bloqueante |
 | 05 Qualidade | Aprovado pelo idealizador |
 
-Esta versão oficial foi autorizada pelo idealizador após revisão externa da documentação. Não equivale a validação com usuários, PoC técnica, homologação ou funcionalidades implementadas. Exemplos são ilustrativos. A matriz de restrições e hipóteses distingue requisitos, serviços definidos, preferências e candidatos técnicos; não há stack definitiva. Uma mesma pessoa pode exercer várias funções. Próxima etapa: especificação funcional; validar hipóteses de problema/personas, priorizar MVP e realizar validações técnica e operacional. Não iniciar desenvolvimento com base somente neste registro.
+Esta versão oficial foi autorizada pelo idealizador após revisão externa da documentação. Não equivale a validação com usuários, PoC técnica, homologação ou funcionalidades implementadas. Exemplos são ilustrativos. A matriz de restrições e hipóteses distingue requisitos, serviços definidos, preferências e candidatos técnicos; não há stack definitiva. Uma mesma pessoa pode exercer várias funções. Discovery v1.0 preservado; especificação funcional em consolidação final. Validar hipóteses de problema/personas com entrevistas; UX/UI e protótipos mockados precedem operacionalização real. Não iniciar desenvolvimento com base somente neste registro.
 
 ## Limites
 O orquestrador é independente do Commander. Commander pode ser utilizado para controle de um projeto, sem assumir que todo trabalho será encaminhado a ele ou que a Fábrica termine na prototipação. Access Management Service e integração entre produtos não são escopo desta discussão. O produto pode atuar em desenvolvimento, implantação de sistemas de mercado, consultoria, dados, processos e outras demandas, sem esteira fixa.
