@@ -28,6 +28,9 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 
 ## Etapa 02 – Especificação funcional em elaboração
 - [Workspace colaborativo, entregáveis e autonomia](docs/15-especificacao-funcional-workspace.md)
+- [Auditoria da especificação funcional e roteiro para revisão independente (25/11/2026)](docs/16-auditoria-especificacao-funcional.md)
+
+**Situação da etapa 02:** 76 identificadores de requisitos registrados; auditoria documental interna disponível para revisão independente. Priorização, requisitos não funcionais e critérios adicionais são candidatos, não baseline funcional oficial. Discovery v1.0 permanece preservado.
 
 ## Estado do trabalho
 | Pilar | Estado |
