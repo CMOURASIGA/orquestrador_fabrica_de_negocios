@@ -15,7 +15,7 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF-009 | Propor evolução de agentes/avaliadores | Proposto (desdobramento) | F | 44,46 | Candidato não altera produção |
 | RF-015 | Criar manualmente entregável não previsto | Aprovado: direção | M | 17,19 | BPMN sem projeto obrigatório |
 | RF-016 | Importar trabalho existente | Aprovado: direção | M | 18,19 | Original associado sem sobrescrever |
-| RF-017 | JEV universal para validação interna | Aprovado: direção | P | 19 | Rascunho livre; versão final avaliada |
+| RF-017 | JEV universal para validação interna; autoria humana da própria especialidade dispensa autoaprovação redundante | Aprovado: direção | P | 19 | Rascunho livre; versão final avaliada; autor especialista não precisa aprovar formalmente a própria entrega após JEV favorável; preservar exigências específicas |
 | RF-018 | Importar/exportar formatos selecionados | Proposto: detalhe/alinhamento | M | 19 | Round-trip BPMN com perdas sinalizadas |
 | RF-019 | Fonte oficial e versões | Proposto: detalhe/alinhamento | P | 6 | Versão aprovada recuperável |
 | RF-020 | Consultar fontes autorizadas | Proposto: detalhe/alinhamento | M | 35,57 | Fonte/data registradas ou lacuna explícita |
@@ -44,13 +44,13 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 |---|---|---|---|---|---|
 | RF-023 | Questionar incoerência material | Aprovado: direção | P | 21 | Contradição relevante sinalizada |
 | RF-024 | Fundamentar questionamento | Proposto: detalhe/alinhamento | P | 23 | Referência e alternativa sem inventar |
-| RF-025 | Respeitar decisão humana legítima | Proposto: detalhe/alinhamento | P | 57 | Confirmação não contorna segurança |
+| RF-025 | Respeitar autoridade humana; responsável do projeto resolve divergências | Aprovado: direção de resolução de divergências | P | 57 | Orquestrador analisa argumentos e impactos, consulta especialista se útil, registra decisão do responsável; confirmação não contorna segurança ou JEV |
 
 ## Kanban e acesso
 | RF | Regra resumida | Status | Fase | Dependências RF | Aceite candidato |
 |---|---|---|---|---|---|
 | RF-034 | Notificações internas clicáveis | Aprovado: direção | M | 26,35 | Leitura não encerra pendência |
-| RF-035 | Regra transversal: ADMIN master, perfis humanos qualificam relevância das aprovações de qualquer objeto; isolamento independente | Aprovado: direção revista (D-F01) | P | 0 | Aprovação de outro perfil válida em BPMN, Storytelling, relatórios ou atividade; aprovação especializada adicional registrada sem bloqueio automático; ADMIN master; teste negativo de contexto |
+| RF-035 | ADMIN master e acesso organizacional; demais usuários em contextos autorizados; relevância contextual das aprovações | Aprovado: direção revista (D-F01) | P | 0 | Aprovação de outro perfil válida; aprovação especializada adicional sem bloqueio automático; ADMIN master; teste negativo de contexto |
 | RF-036 | Atribuição manual e assistida | Proposto: detalhe/alinhamento | M | 26,35 | Sem responsável não inventa atribuição |
 | RF-037 | Kanban contextual | Aprovado: direção | M | 28,36 | Salvamentos não duplicam cards |
 | RF-038 | Prazo e condição de conclusão | Proposto: detalhe/alinhamento | M | 37 | Prazo sugerido não é confirmado |
