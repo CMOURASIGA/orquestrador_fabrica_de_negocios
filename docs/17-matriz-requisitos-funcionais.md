@@ -1,18 +1,18 @@
-# Matriz consolidada de requisitos | candidata v0.1 | 25/11/2026
-Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e segunda revisão externa. Preservar doc/15 como histórico. Congelamento de novas funcionalidades durante consolidação autorizado pelo idealizador nesta conversa. Não constitui baseline final nem validação técnica. RF001–009 são desdobramento candidato na ordem do bloco original, não IDs individualmente aprovados. Status conservador: aprovado refere-se à direção explícita, não aos detalhes; proposto inclui alinhamentos sem aprovação individual explícita. P=PoC (capacidade mínima experimental), M=MVP (incremental), F=pós-MVP. A prioridade é candidata, não aprovação de escopo. Dependências indicam relações funcionais, não ordem de implementação; ciclos são co-requisitos. 0=controle fundacional. Critérios resumidos complementam, não substituem regras integrais do doc/15. Todo requisito mantém condições e limites da fonte.
+# Matriz consolidada de requisitos | consolidação documental v0.2 | 25/11/2026
+Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e segunda revisão externa. Preservar doc/15 como histórico. Congelamento de novas funcionalidades durante consolidação autorizado pelo idealizador nesta conversa. Não constitui baseline final nem validação técnica. RF001–009: individualização documental confirmada pelo idealizador em 25/11; preservar origem no bloco original, sem novos RF. Status conservador: aprovado refere-se à direção explícita, não aos detalhes; proposto inclui alinhamentos sem aprovação individual explícita. P=capacidade a representar seletivamente na PoC mockada e evoluir no MVP; M=MVP mockado incremental; F=pós-MVP. Critérios de aceite técnicos reais permanecem para validação posterior, não são evidências de protótipo. A prioridade é candidata, não aprovação de escopo. Dependências indicam relações funcionais, não ordem de implementação; ciclos são co-requisitos. 0=controle fundacional. Critérios resumidos complementam, não substituem regras integrais do doc/15. Todo requisito mantém condições e limites da fonte.
 
 ## Artefatos e fontes
 | RF | Regra resumida | Status | Fase | Dependências RF | Aceite candidato |
 |---|---|---|---|---|---|
-| RF-001 | Editar manualmente versão sem perder original | Proposto (desdobramento) | M | 19 | Edição salva em nova revisão |
-| RF-002 | Comparar versões | Proposto (desdobramento) | M | 1,19 | Diferenças identificadas |
-| RF-003 | Interpretar diferenças relevantes | Proposto (desdobramento) | M | 2,21 | Interpretação separada do original |
-| RF-004 | Solicitar justificativa seletiva | Proposto (desdobramento) | M | 3,24 | Mudança ambígua material gera pergunta |
-| RF-005 | Avaliar impacto | Proposto (desdobramento) | M | 3,67 | Relacionados sinalizados sem sobrescrita |
-| RF-006 | Registrar autoria e histórico | Proposto (desdobramento) | P | 19 | Autor e versão recuperáveis |
-| RF-007 | Revalidar após alterações | Proposto (desdobramento) | P | 17,19 | Nova versão não herda parecer |
-| RF-008 | Curar memória de alterações | Proposto (desdobramento) | M | 21,60 | Hipótese não vira regra |
-| RF-009 | Propor evolução de agentes/avaliadores | Proposto (desdobramento) | F | 44,46 | Candidato não altera produção |
+| RF-001 | Editar manualmente versão sem perder original | Definido: individualização | M | 19 | Edição salva em nova revisão |
+| RF-002 | Comparar versões | Definido: individualização | M | 1,19 | Diferenças identificadas |
+| RF-003 | Interpretar diferenças relevantes | Definido: individualização | M | 2,21 | Interpretação separada do original |
+| RF-004 | Solicitar justificativa seletiva | Definido: individualização | M | 3,24 | Mudança ambígua material gera pergunta |
+| RF-005 | Avaliar impacto | Definido: individualização | M | 3,67 | Relacionados sinalizados sem sobrescrita |
+| RF-006 | Registrar autoria e histórico | Definido: individualização | P | 19 | Autor e versão recuperáveis |
+| RF-007 | Revalidar após alterações | Definido: individualização | P | 17,19 | Nova versão não herda parecer |
+| RF-008 | Curar memória de alterações | Definido: individualização | M | 21,60 | Hipótese não vira regra |
+| RF-009 | Propor evolução de agentes/avaliadores | Definido: individualização | F | 44,46 | Candidato não altera produção |
 | RF-015 | Criar manualmente entregável não previsto | Aprovado: direção | M | 17,19 | BPMN sem projeto obrigatório |
 | RF-016 | Importar trabalho existente | Aprovado: direção | M | 18,19 | Original associado sem sobrescrever |
 | RF-017 | JEV universal para validação interna; autoria humana da própria especialidade dispensa autoaprovação redundante | Aprovado: direção | P | 19 | Rascunho livre; versão final avaliada; autor especialista não precisa aprovar formalmente a própria entrega após JEV favorável; preservar exigências específicas |
@@ -74,7 +74,7 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF-048 | Selecionar modelo homologado | Aprovado: direção | P | 42,46 | Seleção justificada |
 | RF-049 | Evitar escalonamento inútil | Proposto: detalhe/alinhamento | P | 48,28 | Lacuna gera pergunta |
 | RF-050 | Medir custo/modelo/resultado | Proposto: detalhe/alinhamento | P | 48 | Estimado separado de real |
-| RF-051 | Limitar orçamento | Proposto: detalhe/alinhamento | P | 50,57 | Saldo insuficiente impede nova chamada |
+| RF-051 | Limitar orçamento; custos financeiros exclusivos do ADMIN | Aprovado: direção de visibilidade; detalhes técnicos pendentes | P | 50,57 | Saldo insuficiente impede nova chamada |
 | RF-052 | Política equilibrada | Aprovado: direção | P | 48,51 | Qualidade obrigatória preservada |
 | RF-053 | Controlar consumo antes de executar | Proposto: detalhe/alinhamento | P | 48,51 | Chamadas concorrentes respeitam autorização |
 | RF-054 | Comparar roteamento com baseline | Proposto: detalhe/alinhamento | P | 46,50 | Custo total e qualidade medidos |
@@ -126,4 +126,4 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF-076 | Definir métricas essenciais | Proposto: detalhe/alinhamento | M | 50,74 | Denominador e fonte explícitos |
 
 ## Cobertura
-76 IDs únicos. P=31; M=36; F=9. Fase indica primeira capacidade mínima, não escopo completo de cada RF. RF034 e-mail/navegador configuráveis e WhatsApp posteriores; RF055 central visual no MVP, persistência PoC; RF041 administração mínima MVP, laboratório completo posterior; RF074 análise avançada posterior. RF051 custos de IA exclusivos do ADMIN (D-F02); RF066 análise sempre sob demanda do consultor (D-F03); RF001–009 confirmar desdobramento.
+76 IDs únicos. P=31; M=36; F=9. Fase indica primeira capacidade mínima, não escopo completo de cada RF. RF034 e-mail/navegador configuráveis e WhatsApp posteriores; RF055 central visual no MVP, persistência simulada na experiência e validada tecnicamente antes de operação real; RF041 administração mínima MVP, laboratório completo posterior; RF074 análise avançada posterior. RF051 custos de IA exclusivos do ADMIN (D-F02); RF066 análise sempre sob demanda do consultor (D-F03); RF001–009 individualização confirmada.
