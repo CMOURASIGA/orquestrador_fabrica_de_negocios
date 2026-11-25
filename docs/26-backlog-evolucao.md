@@ -15,7 +15,7 @@ Autorização para revisão/consolidação não autoriza desenvolvimento nem adi
 ## Decisões e direcionamentos de 25/11/2026
 | ID | Situação | Direcionamento |
 |---|---|---|
-| D-F01 | Em revisão | Idealizador propõe número mínimo de perfis relacionado aos agentes padrão. Revisita RF035 (dois perfis); esclarecer se perfil humano é por competência/agente, ou se catálogo de agentes é distinto de autorização humana. Acesso por workspace e acúmulo de permissões ainda não resolvidos. |
+| D-F01 | Direção esclarecida | Perfis vinculados aos agentes especialistas padrão, além do ADMIN; orquestrador e JEV não possuem perfil próprio, por serem capacidades transversais. Revisita RF035. Proposta inicial: ADMIN + KAIROS + SIA + BPMN Master Architect + Status Report Executive Architect, considerando catálogo de referência ainda não definitivo. Acúmulo de perfis por usuário, acesso por workspace e comportamento do orquestrador diante de competência não autorizada permanecem detalhamentos a confirmar. |
 | D-F02 | Aprovado | Custos de IA exclusivos do ADMIN; comparação por modelo/agente, qualidade, latência, retrabalho e resultado aprovado para orientar consumo. Usuário operacional não vê valores financeiros de IA, inclusive via chat, relatório, exportação ou API. |
 | D-F03 | Aprovado | Comentários externos analisados sempre sob demanda do consultor responsável; registro e notificação sem chamada LLM; sem comunicação IA direta ao externo. |
 | D-F04 | Direção revista | PoC rápida mockada para compreender experiência; MVP mockado navegável e com possibilidade de operacionalização. Validação técnica/econômica real separada é recomendação, ainda sem autorização de despesa. Corte incremental A/B/C e fronteira exata do que funciona realmente no MVP ainda candidatos. |
