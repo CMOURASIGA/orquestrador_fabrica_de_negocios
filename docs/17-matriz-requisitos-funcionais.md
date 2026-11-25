@@ -50,7 +50,7 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF | Regra resumida | Status | Fase | Dependências RF | Aceite candidato |
 |---|---|---|---|---|---|
 | RF-034 | Notificações internas clicáveis | Aprovado: direção | M | 26,35 | Leitura não encerra pendência |
-| RF-035 | ADMIN e USUARIO, isolamento | Aprovado: direção | P | 0 | Teste negativo de acesso |
+| RF-035 | ADMIN master e perfis especialistas para aprovação humana; isolamento independente | Aprovado: direção revista (D-F01) | P | 0 | Solicitante sem perfil BPMN pode pedir fluxo; aprovação especializada só por perfil BPMN ou ADMIN; teste negativo de contexto |
 | RF-036 | Atribuição manual e assistida | Proposto: detalhe/alinhamento | M | 26,35 | Sem responsável não inventa atribuição |
 | RF-037 | Kanban contextual | Aprovado: direção | M | 28,36 | Salvamentos não duplicam cards |
 | RF-038 | Prazo e condição de conclusão | Proposto: detalhe/alinhamento | M | 37 | Prazo sugerido não é confirmado |
@@ -101,7 +101,7 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF-063 | Compartilhar versão externamente | Aprovado: direção | F | 19,35 | Convidado restrito à versão |
 | RF-064 | Registrar comentário e impacto | Proposto: detalhe/alinhamento | F | 63,34 | Original separado da análise |
 | RF-065 | Comunicação mediada pelo consultor | Aprovado: direção | F | 63 | Nenhum chat externo IA |
-| RF-066 | Análise agrupada sob demanda proposta | Proposto: detalhe/alinhamento | F | 64,51 | Comentário não dispara LLM por padrão |
+| RF-066 | Análise somente sob demanda do consultor | Aprovado: direção (D-F03) | F | 64,51 | Comentário não dispara LLM; análise exige solicitação |
 
 ## Decisões
 | RF | Regra resumida | Status | Fase | Dependências RF | Aceite candidato |
@@ -126,4 +126,4 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF-076 | Definir métricas essenciais | Proposto: detalhe/alinhamento | M | 50,74 | Denominador e fonte explícitos |
 
 ## Cobertura
-76 IDs únicos. P=31; M=36; F=9. Fase indica primeira capacidade mínima, não escopo completo de cada RF. RF034 e-mail/navegador configuráveis e WhatsApp posteriores; RF055 central visual no MVP, persistência PoC; RF041 administração mínima MVP, laboratório completo posterior; RF074 análise avançada posterior. RF051 visibilidade ao usuário pendente; RF066 análise sob demanda proposta; RF001–009 confirmar desdobramento.
+76 IDs únicos. P=31; M=36; F=9. Fase indica primeira capacidade mínima, não escopo completo de cada RF. RF034 e-mail/navegador configuráveis e WhatsApp posteriores; RF055 central visual no MVP, persistência PoC; RF041 administração mínima MVP, laboratório completo posterior; RF074 análise avançada posterior. RF051 custos de IA exclusivos do ADMIN (D-F02); RF066 análise sempre sob demanda do consultor (D-F03); RF001–009 confirmar desdobramento.
