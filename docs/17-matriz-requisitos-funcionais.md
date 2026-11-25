@@ -50,7 +50,7 @@ Base: doc/15 blob 9d514352859e87cef85b96ddf4fb0ccb542bd947; auditoria doc/16 e s
 | RF | Regra resumida | Status | Fase | Dependências RF | Aceite candidato |
 |---|---|---|---|---|---|
 | RF-034 | Notificações internas clicáveis | Aprovado: direção | M | 26,35 | Leitura não encerra pendência |
-| RF-035 | ADMIN master, perfis humanos qualificam relevância das aprovações; isolamento independente | Aprovado: direção revista (D-F01) | P | 0 | KAIROS aprova BPMN validamente e processo segue; aprovação BPMN adicional registrada como especializada; ADMIN master; teste negativo de contexto |
+| RF-035 | Regra transversal: ADMIN master, perfis humanos qualificam relevância das aprovações de qualquer objeto; isolamento independente | Aprovado: direção revista (D-F01) | P | 0 | Aprovação de outro perfil válida em BPMN, Storytelling, relatórios ou atividade; aprovação especializada adicional registrada sem bloqueio automático; ADMIN master; teste negativo de contexto |
 | RF-036 | Atribuição manual e assistida | Proposto: detalhe/alinhamento | M | 26,35 | Sem responsável não inventa atribuição |
 | RF-037 | Kanban contextual | Aprovado: direção | M | 28,36 | Salvamentos não duplicam cards |
 | RF-038 | Prazo e condição de conclusão | Proposto: detalhe/alinhamento | M | 37 | Prazo sugerido não é confirmado |
