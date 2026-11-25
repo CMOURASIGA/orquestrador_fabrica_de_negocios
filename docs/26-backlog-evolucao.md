@@ -12,7 +12,16 @@ Autorização para revisão/consolidação não autoriza desenvolvimento nem adi
 | Laboratório visual EVAL completo | RF041–047 | Incremental, controles mínimos desde PoC |
 | Formatos adicionais e integrações | RF018,020 | Após formatos selecionados |
 | Expansão 7C | docs/09 | Após Consult Services |
-## Decisões ainda necessárias
-D-F01 acesso padrão USUARIO por workspace ou todos da organização, autoridade de aprovação; D-F02 custo visível ao usuário; D-F03 análise de comentários sob demanda; D-F04 linha de corte PoC/MVP e três incrementos; D-F05 política de proatividade, estados e fontes; D-F06 retenção, privacidade e metas RNF; D-F07 confirmar desdobramento RF001–009. Ajustes de segurança ou lacunas essenciais são tratados como correções de especificação, não expansão indiscriminada.
+## Decisões e direcionamentos de 25/11/2026
+| ID | Situação | Direcionamento |
+|---|---|---|
+| D-F01 | Em revisão | Idealizador propõe número mínimo de perfis relacionado aos agentes padrão. Revisita RF035 (dois perfis); esclarecer se perfil humano é por competência/agente, ou se catálogo de agentes é distinto de autorização humana. Acesso por workspace e acúmulo de permissões ainda não resolvidos. |
+| D-F02 | Aprovado | Custos de IA exclusivos do ADMIN; comparação por modelo/agente, qualidade, latência, retrabalho e resultado aprovado para orientar consumo. Usuário operacional não vê valores financeiros de IA, inclusive via chat, relatório, exportação ou API. |
+| D-F03 | Aprovado | Comentários externos analisados sempre sob demanda do consultor responsável; registro e notificação sem chamada LLM; sem comunicação IA direta ao externo. |
+| D-F04 | Direção revista | PoC rápida mockada para compreender experiência; MVP mockado navegável e com possibilidade de operacionalização. Validação técnica/econômica real separada é recomendação, ainda sem autorização de despesa. Corte incremental A/B/C e fronteira exata do que funciona realmente no MVP ainda candidatos. |
+| D-F05 | Parcialmente esclarecido | Desenvolvedor não amplia escopo por iniciativa própria; se identificar necessidade, justificar e obter autorização antes de mudança material. Decisão técnica dentro do escopo pode ser fundamentada. Política de proatividade operacional do orquestrador e máquinas de estado ainda requerem confirmação; manter RF014/040/056. |
+| D-F06 | Direção aprovada | Seguir regulamentação aplicável e padrões de segurança pertinentes. Detalhar medidas, retenção e tratamento por fornecedores conforme obrigações e contexto; não presumir conformidade ou autorizar dados reais antes de validação. |
+| D-F07 | Pendente | Confirmar individualização RF001–009. |
+Ajustes de segurança ou lacunas essenciais são correções de especificação, não expansão indiscriminada. Nenhuma implementação, teste, entrevista ou chamada faturável realizada.
 ## Próximo marco
 Confrontar matriz com fontes, validar jornadas com usuários, decidir pendências e aprovar baseline funcional; então preparar arquitetura e backlog da PoC, sem iniciar desenvolvimento nesta etapa. 
