@@ -149,3 +149,6 @@ Critérios candidatos: atualizar dashboard sem chamada LLM; solicitar análise g
 
 ## Pendências
 Detalhar criação/importação e associação de artefatos, conflitos de edição, permissões, aprovação/aceite e publicação; limites da autonomia, UX e escopo MVP. Nenhuma implementação ou teste realizado.
+
+## Nota de consolidação posterior (25/11/2026)
+Preservado histórico acima. D-F01 no doc/26 e matriz doc/21 v0.2 prevalecem sobre interpretação anterior do RF035: perfis especialistas definem autoridade humana de aprovação, não acesso a agentes; ADMIN tem autoridade master transversal, orquestrador/JEV sem perfil próprio. D-F02: custos de IA exclusivos do ADMIN. D-F03: análise de comentários externos exclusivamente sob demanda do consultor. PoC/MVP mockados conforme D-F04, recorte em revisão. Nenhuma implementação realizada.
