@@ -116,3 +116,25 @@ Formato sugerido: ID | documento/RF | achado | prioridade | impacto | recomenda�
 
 ## Próximo marco
 Incorporar parecer independente, discutir divergências e decisões pendentes, produzir matriz atômica de requisitos/aceite e baseline funcional oficial mediante autorização. Depois arquitetura técnica e backlog da PoC. Nenhum requisito novo deste parecer é automaticamente aprovado.
+
+
+## Segunda revisão externa recebida (25/11/2026)
+Parecer fornecido pelo idealizador em conversa. Revisor relata leitura dos documentos 00–15 e comparação com versão anterior; não menciona doc/16, portanto não se presume que tenha avaliado a auditoria interna. Identidade, método e independência institucional não verificados. Síntese, não transcrição integral.
+
+| Achado externo | Correspondência interna | Tratamento recomendado |
+|---|---|---|
+| Expansão de escopo e ausência de corte por RF | AF01, AF08 | Matriz por RF com entregas PoC/MVP/posterior, dependências e critérios; congelar novos RF durante consolidação, ideias em backlog separado |
+| Documento cronológico em vez de especificação | AF01, AF04, AF07, AF12 | Preservar doc/15 histórico; criar versão organizada por domínio, modelo conceitual de entidades e relacionamentos, matriz de permissões, estados independentes |
+| Estados de aprovação heterogêneos | AF01, AF19 | Separar aprovação da direção, detalhamento proposto, prioridade de entrega e evidência de validação |
+| Acesso externo vs não-objetivo MVP | AF08, AF14 | Convidado não é perfil operacional; recomendar colaboração externa posterior ao MVP, exportação e aceite registrado internamente primeiro |
+| Dois perfis vs autorização por workspace | AF02 | Manter ADMIN/USUARIO; decidir alcance de dados por organização/workspace e autoridade de aprovação sem criar perfis adicionais |
+| JEV e significado de finalizado | AF04, AF11 | Distinguir rascunho, candidato à finalização, avaliação, aprovação interna, aceite e publicação; associar evidências à versão |
+| Excesso de atrito e custo por inteligência crítica | AF03, AF13 | Política de relevância, agrupar observações não impeditivas, deduplicar; configurar intensidade e orçamento de análises. Não suprimir bloqueios críticos por limite arbitrário de interrupções |
+| Falta de validação com usuários | AF09 | Entrevistar 1–2 usuários representativos e observar jornadas A/B/C; revisão documental não equivale a pesquisa ou homologação |
+| Sobreposição com arquitetura técnica | AF05, AF06 | Especificar resultados verificáveis (retomada, não duplicação, limite financeiro); mecanismos de implementação permanecem candidatos |
+| LGPD e dados pessoais | RNF04, AF18 | Explicitar LGPD na governança: inventário, finalidade, base legal aplicável, papéis de tratamento, retenção, direitos, segurança e fornecedores; validar requisitos legais antes de dados reais |
+| Jornadas completas A/B/C | J1/J2 e lacuna de detalhamento de Status Report | Desenvolver passos humano/sistema, alternativas, falhas, autorizações e critérios de aceite antes do desenho definitivo |
+
+Ressalvas: RF-066 ainda é proposta, não decisão de análise automática ou sob demanda; os 76 IDs não estão todos individualmente aprovados. Proatividade configurável não deve eliminar alertas críticos, e limite por sessão é hipótese de UX. A colaboração externa é visão aprovada, não escopo MVP aprovado. A linha de corte deve preservar a capacidade adaptativa e controles mínimos de qualidade, autorização e custo.
+
+Recomendação de sequência: congelar levantamento expansivo; elaborar matriz e corte candidato, três jornadas completas, modelo de entidades, estados e permissões; discutir decisões pendentes; realizar entrevistas; consolidar baseline mediante autorização. Não alterar decisões anteriores nem iniciar desenvolvimento nesta revisão. Parecer externo registrado, recomendações ainda sujeitas ao idealizador.
