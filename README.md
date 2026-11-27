@@ -30,7 +30,7 @@ Transformar ideias, oportunidades, problemas e necessidades em entregáveis úte
 - [Workspace colaborativo, entregáveis e autonomia](docs/15-especificacao-funcional-workspace.md)
 - [Auditoria da especificação funcional e roteiro para revisão independente (25/11/2026)](docs/16-auditoria-especificacao-funcional.md)
 
-**Situação da etapa 02:** auditoria interna e segunda revisão externa registradas; consolidação documental v0.2 publicada. 76 RF preservados, sem expansão de escopo. D-F01–07 com direcionamentos definidos; critérios detalhados, entrevistas e validações técnicas permanecem a realizar. Próximo marco: entrevista do idealizador como usuário, incorporação de evidências e aprovação da baseline funcional v1.0. PoC rápida mockada e MVP mockado operacional; validação técnica/econômica real separada (doc/18). Discovery v1.0 permanece preservado; doc/15 é histórico da discussão.
+**Situação da etapa 02:** auditoria interna e segunda revisão externa registradas; consolidação documental v0.2 publicada. 76 RF preservados, sem expansão de escopo. D-F01–07 com direcionamentos definidos; entrevista E01 com idealizador como usuário concluída em 27/11/2026 e registrada no doc/25; critérios detalhados, entrevista independente e validações técnicas permanecem a realizar. Próximo marco: aprovação da baseline funcional v1.0 e UX/UI. PoC rápida mockada e MVP mockado operacional; validação técnica/econômica real separada (doc/18). Discovery v1.0 permanece preservado; doc/15 é histórico da discussão.
 
 - [17 matriz requisitos funcionais](docs/17-matriz-requisitos-funcionais.md)
 - [18 delimitacao poc mvp](docs/18-delimitacao-poc-mvp.md)
